@@ -89,11 +89,33 @@ img {
 }
 
 .texto-intro {
-    justify-content:
+    text-align: justify;
 }
 
 /* Que es? Nombre ozono */
 
-.ozono{
+.ozono {
     background-image: linear-gradient(to bottom left, rgb(184,228,255), azure, azure, azure);
+    display: flex;
+    flex-basis: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos-ozono {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-ozono {
+    width: 65%;
+    height: 65%;
+    margin: auto;
+}
+
+.texto-ozono {
+    width: 50%;
+    text-align: justify;
 }
