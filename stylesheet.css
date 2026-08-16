@@ -119,3 +119,46 @@ img {
     width: 50%;
     text-align: justify;
 }
+
+/* Aplicaciones */
+
+.aplicaciones {
+    background-image: linear-gradient(to bottom right, azure, azure, azure, rgb(184, 228, 255));
+}
+
+.aplicaciones-aplicaciones {
+    display: flex;
+}
+
+.aplicacion {
+    flex: 1;
+    transition: flex 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    height: 400px;
+}
+
+/* Testimonios */
+
+.testimonios {
+        background-image: linear-gradient(to bottom left, rgb(184,228,255), azure, azure, azure);
+}
+
+/* Certificados */
+
+.certificados {
+    background-image: linear-gradient(to bottom right, azure, azure, azure, rgb(184, 228, 255));
+}
+
+/* Metodos */
+
+.metodos {
+        background-image: linear-gradient(to bottom left, rgb(184,228,255), azure, azure, azure);
+}
+
+/* Seguridad */
+
+.seguridad {
+    background-image: linear-gradient(to bottom right, azure, azure, azure, rgb(184, 228, 255));
+}
