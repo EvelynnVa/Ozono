@@ -1,14 +1,12 @@
 /* General */
 * {
-    margin: 20pxpx;
-    padding: 10px;
     box-sizing: border-box;
     color: rgb(40, 45, 49);
+    margin: 0;
 }
 
 body {
     font-family: sans-serif;
-    background-color: #a5a1a1;
 }
 
 button {
@@ -41,6 +39,10 @@ img {
     border-radius: 30px;
 }
 
+p {
+    margin: 10px;
+}
+
 /* Navbar */
 
 .navbar {
@@ -69,6 +71,8 @@ img {
 /* Introduccion */
 
 .intro {
+    padding: 10px;
+    width: 100%;
     background-image: linear-gradient(to bottom right, azure, azure, azure, rgb(184, 228, 255));
     display: flex;
     flex-basis: 1;
@@ -90,11 +94,13 @@ img {
 
 .texto-intro {
     text-align: justify;
+    margin-right: 50px;
 }
 
 /* Que es? Nombre ozono */
 
 .ozono {
+    padding: 10px;
     background-image: linear-gradient(to bottom left, rgb(184,228,255), azure, azure, azure);
     display: flex;
     flex-basis: 1;
@@ -118,11 +124,13 @@ img {
 .texto-ozono {
     width: 50%;
     text-align: justify;
+    margin-left: 50px;
 }
 
 /* Aplicaciones */
 
 .aplicaciones {
+    padding: 10px;
     background-image: linear-gradient(to bottom right, azure, azure, azure, rgb(184, 228, 255));
 }
 
@@ -131,6 +139,7 @@ img {
 }
 
 .aplicaciones-aplicaciones {
+    margin: 20px;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -208,23 +217,42 @@ img {
 /* Testimonios */
 
 .testimonios {
-        background-image: linear-gradient(to bottom left, rgb(184,228,255), azure, azure, azure);
+    padding: 10px;
+    background-image: linear-gradient(to bottom left, rgb(184,228,255), azure, azure, azure);
+}
+
+.testimonios h1 {
+    justify-self: center;
+}
+
+.testimonios h2 {
+    color: black;
+    margin-left: 50px;
+}
+
+.testimonios h3{
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-self: auto;
 }
 
 /* Certificados */
 
 .certificados {
+    padding: 10px;
     background-image: linear-gradient(to bottom right, azure, azure, azure, rgb(184, 228, 255));
 }
 
 /* Metodos */
 
 .metodos {
-        background-image: linear-gradient(to bottom left, rgb(184,228,255), azure, azure, azure);
+    padding: 10px;
+    background-image: linear-gradient(to bottom left, rgb(184,228,255), azure, azure, azure);
 }
 
 /* Seguridad */
 
 .seguridad {
+    padding: 10px;
     background-image: linear-gradient(to bottom right, azure, azure, azure, rgb(184, 228, 255));
 }
