@@ -126,17 +126,83 @@ img {
     background-image: linear-gradient(to bottom right, azure, azure, azure, rgb(184, 228, 255));
 }
 
+.intro-aplicaciones {
+    text-align: center;
+}
+
 .aplicaciones-aplicaciones {
     display: flex;
+    flex-direction: row;
+    gap: 20px;
+    transition: 0.3s ease;
 }
 
 .aplicacion {
     flex: 1;
     transition: flex 0.3s ease;
     overflow: hidden;
-    cursor: pointer;
     position: relative;
     height: 400px;
+}
+
+.aplicacion img {
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.aplicacion h4 {
+    position: absolute;
+    align-self: center;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.aplicacion p {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    padding: 0 20px;
+    color: white;
+}
+
+.aplicacion.activa p {
+    display: block;
+    flex: 3;
+    text-align: justify;
+}
+
+.aplicacion.activa h4 {
+    top: 20%;
+    transform: translateX(-50%);
+}
+
+.aplicacion.activa img {
+    filter: brightness(0.15);
+}
+
+.aplicacion.inactiva {
+    flex: 0.1;
+}
+
+.aplicacion.inactiva h4 {
+    writing-mode: vertical-rl;
+    align-self: center;
+    justify-self: center;
+    width: auto;
+}
+
+.advertencia-aplicaciones {
+    text-align: center;
 }
 
 /* Testimonios */
