@@ -226,14 +226,39 @@ p {
 }
 
 .testimonios h2 {
-    color: black;
+    color: white;
     margin-left: 50px;
 }
 
 .testimonios h3{
+    color: white;
     margin-left: 50px;
     margin-right: 50px;
     justify-self: auto;
+}
+
+.testimonios-cards {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.testimonio {
+    background-color: royalblue;
+    border-radius: 30px;
+    margin: 20px;
+    gap: 30px;
+}
+
+.testimonio1 {
+    background-color: steelblue;
+    border-radius: 30px;
+    margin: 20px;
+    gap: 30px;
+}
+
+.testimonio content {
+    margin: 20px;
 }
 
 /* Certificados */
