@@ -228,13 +228,15 @@ p {
 .testimonios h2 {
     color: white;
     margin-left: 50px;
+    text-align: start;
 }
 
 .testimonios h3{
+    margin-top: 20px;
     color: white;
     margin-left: 50px;
     margin-right: 50px;
-    justify-self: auto;
+    text-align: justify;
 }
 
 .testimonios-cards {
@@ -261,6 +263,11 @@ p {
     margin: 20px;
 }
 
+.contenido-testimonios {
+    align-self: center;
+    text-align: right;
+}
+
 /* Certificados */
 
 .certificados {
@@ -273,6 +280,53 @@ p {
 .metodos {
     padding: 10px;
     background-image: linear-gradient(to bottom left, rgb(184,228,255), azure, azure, azure);
+}
+
+.metodos h1 {
+    text-align: center;
+}
+
+.metodos1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.metodos2 {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.metodo {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.metodo img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 180px;
+    
+}
+
+.metodo h3 {
+    text-align: center;
 }
 
 /* Seguridad */
