@@ -82,6 +82,7 @@ a {
 
 .navbar a {
     text-justify: center;
+    color: steelblue;
 }
 
 /* LANDING PAGE */
@@ -384,5 +385,86 @@ a {
 }
 
 /* PAGINA DOCTORA */
+
+/* Navbar */
+
+.navbar-doc {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(to top, azure, rgb(184, 228, 255));
+    z-index: 10;
+}
+
+.navbar-doc ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-doc p {
+    margin-right: 35px;
+}
+
+.navbar-doc li {
+    list-style: none;
+}
+
+.navbar-doc a {
+    color: steelblue;
+}
+
+/* Motivacion */
+
+.motivacion {
+    background-image: linear-gradient(to top right, azure, rgb(207, 236, 255));
+    padding: 10px;
+}
+
+.contenido-motiv {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    place-content: center;
+}
+
+.texto-motiv {
+    width: 50%;
+    align-content: center;
+}
+
+.fotos-motiv {
+    width: 50%;
+    text-align: center;
+}
+
+.motivacion img {
+    height: 300px;
+}
+
+.motivacion p {
+    text-align: justify;
+}
+
+/* Formacion */
+
+
+
+/* Experiencia */
+
+
+
+/* Enfoque personal */
+
+
+
+/* Reconocimiento */
+
+
+
+/* Foto personal */
 
 /* PAGINA CIENCIA */
